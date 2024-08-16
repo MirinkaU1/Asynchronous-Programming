@@ -1,4 +1,4 @@
-# Async/Await Functions - README
+# Checkpoint Asynchronous Programming
 
 ## Introduction
 
@@ -7,9 +7,9 @@ Ce repository contient trois fonctions asynchrones écrites en JavaScript pour d
 - Attente d'un appel simulé
 - Enchaînement `async/await`
 
-## Fonctions Implémentées
+## Tâches
 
-### 1. `iterateWithAsyncAwait`
+### 1. Tâches 1 : `iterateWithAsyncAwait`
 
 #### Description
 La fonction `iterateWithAsyncAwait` prend un tableau de valeurs et affiche chaque valeur avec un délai d'une seconde entre les affichages. Cette fonction utilise `async/await` pour gérer le délai entre chaque affichage.
@@ -36,7 +36,7 @@ const values = [1, 2, 3, 4, 5];
 iterateWithAsyncAwait(values);
 ```
 
-### 2. `waitCall`
+### 2. Tâche 2 : `waitCall`
 
 #### Description
 La fonction `waitCall` simule la récupération de données à partir d'une API. Elle utilise une fonction de `wait` pour introduire un délai d'attente avant de simuler le retour des données.
@@ -66,7 +66,7 @@ async function waitCall() {
 waitCall();
 ```
 
-### 3. `chainedAsyncFunctions`
+### 3. Tâche 4 : `chainedAsyncFunctions`
 
 #### Description
 La fonction `chainedAsyncFunctions` appelle séquentiellement trois fonctions asynchrones distinctes, chacune enregistrant un message après un délai d'une seconde.
