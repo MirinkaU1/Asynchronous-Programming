@@ -105,9 +105,3 @@ async function chainedAsyncFunctions() {
 ```javascript
 chainedAsyncFunctions();
 ```
-
-## Conclusion
-
-Ces fonctions montrent comment gérer efficacement des opérations asynchrones en JavaScript en utilisant `async/await`. N'hésitez pas à tester et à adapter ces exemples à vos propres besoins.
-
----
